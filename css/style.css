@@ -1,0 +1,177 @@
+a {
+  text-decoration: none;
+  text-decoration: bolder;
+  color: whitesmoke;
+}
+p {
+  font-size: 1.2rem;
+  color: white;
+}
+
+  body {
+    margin: 0;
+  }
+
+#note {
+  color: rgb(199, 50, 50);
+}
+/*----Header-----*/
+.page-header {
+  height: 70px;
+}
+.page-title {
+  position: fixed;
+  top: 0;
+  height: 40px;
+  width: 100%;
+  color: white;
+  background-color: #00695c;
+  padding: 10px 0;
+  margin: 0;
+  text-align: center;
+  font-size: 32px;
+  font-size: 2rem;
+}
+/*-----nav part-----*/
+.navigation {
+  text-align: center;
+  padding: 0;
+}
+
+.navigation li {
+  display: inline-block;
+  height: 30px;
+  width: 10%;
+  background-color: rgba(1, 141, 106, 0.959);
+  font-size: 32px;
+  font-size: 1.3rem;
+}
+.my-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #d8d8d8;
+}
+
+.container-item {
+  width: 100%;
+}
+
+.myFont {
+  font-size: 30px;
+  color: black;
+}
+
+.blue {
+  background-color: #00897b;
+}
+
+.red {
+  background-color: #0d97f3;
+}
+.green {
+  background-color: #25b8a9;
+}
+.yellow {
+  background-color: #26a69a;
+}
+.white {
+  background-color: #26a69a;
+}
+.purple {
+  background-color: #16a193;
+}
+/*-----footer part-----*/
+.footer {
+  display: block;
+  width: 100%;
+  background-color: rgb(59, 51, 51);
+  height: 200px;
+  color: beige;
+  text-align: center;
+  font-size: 2rem;
+}
+.footer p {
+  text-align: center;
+}
+
+/*----images-----*/
+
+.my-image {
+  border: 1px solid #32413b;
+  border-radius: 5px;
+  box-shadow: 0px 3px 20px 2px #2c2c2c;
+  width: 10vw;
+}
+#images {
+  width: 98%;
+  height: 98%;
+}
+
+.logo {
+  border: 1px solid #32413b;
+  border-radius: 5px;
+  box-shadow: 0px 3px 20px 2px #2c2c2c;
+  width: 10vw;
+}
+#logo {
+  width: 10%;
+  height: 10%;
+}
+/*use media queries to change the layout*/
+
+@media (min-width: 300px) {
+  .blue {
+    width: 100%;
+  }
+  .red {
+    width: 100%;
+  }
+  .green {
+    width: 100%;
+  }
+  .white {
+    width: 100%;
+  }
+  .yellow {
+    width: 100%;
+  }
+  .purple {
+    width: 100%;
+  }
+  .navigation li {
+    width: 20%;
+    font-size: 1.2rem;
+  }
+  p {
+    margin: 0;
+  }
+}
+
+@media (min-width: 600px) {
+  .blue {
+    width: 80%;
+  }
+  .white {
+    width: 20%;
+  }
+  .yellow {
+    width: 100%;
+  }
+  .red {
+    width: 100%;
+  }
+  .green {
+    width: 50%;
+  }
+  .purple {
+    width: 50%;
+  }
+  .navigation li {
+    width: 15%;
+    font-size: 1.2rem;
+  }
+  p {
+    margin: 0;
+  }
+}
